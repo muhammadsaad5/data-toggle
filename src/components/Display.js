@@ -13,7 +13,7 @@ class Display extends React.Component{
     render(){
         return(
             <div>
-                {this.state.display && <p>this is a paragraph</p>}
+                {this.state.display && <p>this is a paragraph which will be hide on clicking the button.</p>}
            <button onClick={this.toggle}>{this.state.display ? "hide" : "show"}</button>
             </div>
         )
